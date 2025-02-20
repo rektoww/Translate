@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleTranslate/1.0.0": {
+        "dependencies": {
+          "ClassLibraryTranslate": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleTranslate.dll": {}
+        }
+      },
+      "ClassLibraryTranslate/1.0.0": {
+        "runtime": {
+          "ClassLibraryTranslate.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTranslate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibraryTranslate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

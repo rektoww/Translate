@@ -1,10 +1,12 @@
 ﻿using System;
+
+using System.Drawing;
 /// <summary>
 /// 
 /// Задача переводчика: перевод числа в заданную систему счисления
 /// 
 /// </summary>
-namespace ClassLibraryConverter
+namespace ClassLibraryTranslate
 {
     /// <summary>
     /// 
