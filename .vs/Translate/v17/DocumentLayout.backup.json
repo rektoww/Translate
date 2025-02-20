@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\party\\source\\repos\\Translate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinFormsTranslate\\WinFormsTranslate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinFormsTranslate\\WinFormsTranslate.csproj.user||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\winformstranslate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinFormsTranslate\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99DB6F4D-D1BE-43DA-97C3-B507DED9AE25}|ConsoleTranslate\\ConsoleTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\consoletranslate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DB6F4D-D1BE-43DA-97C3-B507DED9AE25}|ConsoleTranslate\\ConsoleTranslate.csproj|solutionrelative:consoletranslate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormDebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WinFormsTranslate\\FormDebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|solutionrelative:classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,32 +39,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WinFormsTranslate.csproj",
-              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\WinFormsTranslate.csproj",
-              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
-              "RelativeToolTip": "WinFormsTranslate\\WinFormsTranslate.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-20T22:52:22.279Z",
-              "EditorCaption": ""
+              "Title": "FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs",
+              "RelativeDocumentMoniker": "WinFormsTranslate\\FormMain.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T22:55:54.828Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WinFormsTranslate.csproj.user",
-              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj.user",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\WinFormsTranslate.csproj.user",
-              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj.user",
-              "RelativeToolTip": "WinFormsTranslate\\WinFormsTranslate.csproj.user",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2025-02-20T22:52:21.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\Program.cs",
               "RelativeDocumentMoniker": "WinFormsTranslate\\Program.cs",
@@ -72,20 +58,33 @@
               "RelativeToolTip": "WinFormsTranslate\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T22:52:17.489Z",
+              "WhenOpened": "2025-02-20T22:55:51.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\ConsoleTranslate\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleTranslate\\Program.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\ConsoleTranslate\\Program.cs",
+              "RelativeToolTip": "ConsoleTranslate\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T22:55:45.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormDebug.cs",
-              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormDebug.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormDebug.cs",
-              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormDebug.cs",
-              "RelativeToolTip": "WinFormsTranslate\\FormDebug.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibraryTranslate\\Class1.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "RelativeToolTip": "ClassLibraryTranslate\\Class1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T22:52:16.415Z",
+              "WhenOpened": "2025-02-20T22:55:38.469Z",
               "EditorCaption": ""
             }
           ]

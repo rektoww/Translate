@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\egor2\\Desktop\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj": {}
+    "C:\\Users\\party\\Source\\Repos\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
+    "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "projectUniqueName": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
         "projectName": "ClassLibraryTranslate",
-        "projectPath": "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
-        "packagesPath": "C:\\Users\\egor2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\obj\\",
+        "projectPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "packagesPath": "C:\\Users\\party\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\egor2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\party\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -69,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\egor2\\Desktop\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj": {
+    "C:\\Users\\party\\Source\\Repos\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\egor2\\Desktop\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj",
+        "projectUniqueName": "C:\\Users\\party\\Source\\Repos\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj",
         "projectName": "ConsoleTranslate",
-        "projectPath": "C:\\Users\\egor2\\Desktop\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj",
-        "packagesPath": "C:\\Users\\egor2\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\egor2\\Desktop\\Translate\\ConsoleTranslate\\obj\\",
+        "projectPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ConsoleTranslate\\ConsoleTranslate.csproj",
+        "packagesPath": "C:\\Users\\party\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ConsoleTranslate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\egor2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\party\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -97,8 +97,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
-                "projectPath": "C:\\Users\\egor2\\Desktop\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj"
+              "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
+                "projectPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj"
               }
             }
           }
