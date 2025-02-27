@@ -32,3 +32,15 @@ C:\Users\party\Source\Repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\Cla
 C:\Users\party\Source\Repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\refint\ClassLibraryTranslate.dll
 C:\Users\party\Source\Repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.pdb
 C:\Users\party\Source\Repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ref\ClassLibraryTranslate.dll
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\bin\Debug\net8.0\ClassLibraryTranslate.deps.json
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\bin\Debug\net8.0\ClassLibraryTranslate.dll
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\bin\Debug\net8.0\ClassLibraryTranslate.pdb
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.AssemblyInfoInputs.cache
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.AssemblyInfo.cs
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.csproj.CoreCompileInputs.cache
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.sourcelink.json
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.dll
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\refint\ClassLibraryTranslate.dll
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ClassLibraryTranslate.pdb
+C:\Users\l1roi\source\repos\Translate\ClassLibraryTranslate\obj\Debug\net8.0\ref\ClassLibraryTranslate.dll
