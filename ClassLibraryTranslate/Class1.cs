@@ -1,68 +1,73 @@
 ﻿using System;
 
-using System.Drawing;
-/// <summary>
-/// 
-/// Задача переводчика: перевод числа в заданную систему счисления
-/// 
-/// </summary>
 namespace ClassLibraryTranslate
 {
-    /// <summary>
-    /// 
-    /// Перевод начального числа в системе счисления P
-    /// в десятичную систему счисления,
-    /// затем перевод в требуемую систему счисления Q
-    /// 
-    /// </summary>
-    /// <param name="number">начальное число</param>
-    /// <param name="P">система счисления начального числа</param>
-    /// <param name="Q">система счисления в которую нужно произвести перевод начального числа</param>
-    /// <param name="accuracy">точность вывода результата</param>
     public static class Translate
     {
+        // Метод для перевода целой части числа из системы счисления P в десятичную
+        public static double ConvertIntegerPart(string integerPart, int P, string digits)
+        {
+            double decimalValue = 0;
+            for (int i = 0; i < integerPart.Length; i++)
+            {
+                int digitValue = digits.IndexOf(integerPart[i]);
+                decimalValue += digitValue * Math.Pow(P, integerPart.Length - 1 - i);
+            }
+            return decimalValue;
+        }
+
+        // Метод для перевода дробной части числа из системы счисления P в десятичную
+        public static double ConvertFractionalPart(string fractionalPart, int P, string digits)
+        {
+            double decimalValue = 0;
+            for (int i = 0; i < fractionalPart.Length; i++)
+            {
+                int digitValue = digits.IndexOf(fractionalPart[i]);
+                decimalValue += digitValue / Math.Pow(P, i + 1);
+            }
+            return decimalValue;
+        }
+
         public static string ConvertNumber(string number, int P, int Q, int accuracy)
         {
             string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             double decimalValue = 0;
 
-            // Переводим число из системы P в десятичную
+            // Разделение числа на целую и дробную часть
             string[] parts = number.Split('.');
-            for (int i = 0; i < parts[0].Length; i++)
+
+            // Перевод целой части в десятичную систему
+            decimalValue += ConvertIntegerPart(parts[0], P, digits);
+
+            // Перевод дробной части в десятичную систему (если она существует)
+            if (parts.Length > 1)
             {
-                int digitValue = digits.IndexOf(parts[0][i]);
-                decimalValue += digitValue * Math.Pow(P, parts[0].Length - 1 - i);
+                decimalValue += ConvertFractionalPart(parts[1], P, digits);
             }
 
-            if (parts.Length > 1) // Обработка дробной части
-            {
-                for (int i = 0; i < parts[1].Length; i++)
-                {
-                    int digitValue = digits.IndexOf(parts[1][i]);
-                    decimalValue += digitValue / Math.Pow(P, i + 1);
-                }
-            }
-
-            // Переводим из десятичной в систему Q
+            // Перевод из десятичной в систему Q
             long integerPart = (long)decimalValue;
             double fractionalPart = decimalValue - integerPart;
             string result;
+
+            // Формирование целой части результата
             if (integerPart == 0)
             {
-                result = "0"; // Если целая часть равна нулю, результат будет "0"
+                result = "0";
             }
             else
             {
-                result = ""; // Если целая часть не равна нулю, строка остаётся пустой
+                result = "";
             }
 
-
+            // Преобразование целой части числа в систему Q
             while (integerPart > 0)
             {
                 result = digits[(int)(integerPart % Q)] + result;
                 integerPart /= Q;
             }
-            // Добавляет дробную часть к результату, если задана точность и дробная часть не равна нулю
+
+            // Обработка дробной части
             if (accuracy > 0 && fractionalPart > 0)
             {
                 result += ".";
@@ -76,7 +81,7 @@ namespace ClassLibraryTranslate
                 }
             }
 
-            return result; // Вывод результата
+            return result;
         }
     }
 }
