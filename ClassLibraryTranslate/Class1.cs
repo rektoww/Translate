@@ -11,7 +11,7 @@ namespace ClassLibraryTranslate
         /// <param name="integerPart">целая часть исходного числа</param>
         /// <param name="P">система счисления из которой переводится число</param>
         /// <param name="digits">строка всех возможных цифр в системе счисления</param>
-        /// <param name="decimalValue">итоговое число в десятичной системе</param>
+        /// <param name="decimalValue">итоговая целая часть числа в десятичной системе</param>
         public static void ConvertIntegerPart(string integerPart, int P, string digits, ref double decimalValue)
         {
             for (int i = 0; i < integerPart.Length; i++)
@@ -24,10 +24,11 @@ namespace ClassLibraryTranslate
         /// <summary>
         /// Перевод дробной части числа из системы счисления P в десятичную систему
         /// </summary>
+        /// <param name="digitValue">числовое значение текущей цифры</param>
         /// <param name="fractionalPart">дробная часть исходного числа</param>
-        /// <param name="P"></param>
-        /// <param name="digits"></param>
-        /// <param name="decimalValue"></param>
+        /// <param name="P">система счисления из которой переводится число</param>
+        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
+        /// <param name="decimalValue">итоговая десятичная часть числа в десятичной системе</param>
         public static void ConvertFractionalPart(string fractionalPart, int P, string digits, ref double decimalValue)
         {
             for (int i = 0; i < fractionalPart.Length; i++)
@@ -37,7 +38,13 @@ namespace ClassLibraryTranslate
             }
         }
 
-        // Метод для перевода целой части из десятичной системы в систему счисления Q
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="integerPart"></param>
+        /// <param name="Q"></param>
+        /// <param name="digits"></param>
+        /// <returns></returns>
         public static string ConvertFromDecimalToBaseQInteger(long integerPart, int Q, string digits)
         {
             if (integerPart == 0)
@@ -54,7 +61,14 @@ namespace ClassLibraryTranslate
             return result;
         }
 
-        // Метод для перевода дробной части из десятичной системы в систему счисления Q
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="result"></param>
+        /// <param name="fractionalPart"></param>
+        /// <param name="Q"></param>
+        /// <param name="accuracy"></param>
+        /// <param name="digits"></param>
         public static void ConvertFromDecimalToBaseQFractional(ref string result, double fractionalPart, int Q, int accuracy, string digits)
         {
             for (int i = 0; i < accuracy; i++)
@@ -67,19 +81,35 @@ namespace ClassLibraryTranslate
             }
         }
 
-        // Метод для разделения десятичного числа на целую и дробную часть
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="decimalValue"></param>
+        /// <param name="integerPart"></param>
+        /// <param name="fractionalPart"></param>
         public static void SplitDecimalValue(double decimalValue, out long integerPart, out double fractionalPart)
         {
             integerPart = (long)decimalValue;
             fractionalPart = decimalValue - integerPart;
         }
 
-        // Метод для разделения строки числа на целую и дробную часть
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns></returns>
         public static string[] SplitNumber(string number)
         {
             return number.Split('.');
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="number"></param>
+        /// <param name="P"></param>
+        /// <param name="Q"></param>
+        /// <param name="accuracy"></param>
+        /// <returns></returns>
         public static string ConvertNumber(string number, int P, int Q, int accuracy)
         {
             string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
