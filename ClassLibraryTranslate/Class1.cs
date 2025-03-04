@@ -4,7 +4,14 @@ namespace ClassLibraryTranslate
 {
     public static class Translate
     {
-        // Метод для перевода целой части числа из системы счисления P в десятичную
+        /// <summary>
+        /// Перевод целой части числа из системы счисления P в десятичную систему
+        /// </summary>
+        /// <param name="digitValue">числовое значение текущей цифры</param>
+        /// <param name="integerPart">целая часть исходного числа</param>
+        /// <param name="P">система счисления из которой переводится число</param>
+        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
+        /// <param name="decimalValue">итоговое число в десятичной системе</param>
         public static void ConvertIntegerPart(string integerPart, int P, string digits, ref double decimalValue)
         {
             for (int i = 0; i < integerPart.Length; i++)
@@ -14,7 +21,13 @@ namespace ClassLibraryTranslate
             }
         }
 
-        // Метод для перевода дробной части числа из системы счисления P в десятичную
+        /// <summary>
+        /// Перевод дробной части числа из системы счисления P в десятичную систему
+        /// </summary>
+        /// <param name="fractionalPart">дробная часть исходного числа</param>
+        /// <param name="P"></param>
+        /// <param name="digits"></param>
+        /// <param name="decimalValue"></param>
         public static void ConvertFractionalPart(string fractionalPart, int P, string digits, ref double decimalValue)
         {
             for (int i = 0; i < fractionalPart.Length; i++)
