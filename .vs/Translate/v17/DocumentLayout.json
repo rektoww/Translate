@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Translate\\",
+  "WorkspaceRootPath": "C:\\Users\\alexd\\source\\repos\\Translate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|c:\\users\\user\\source\\repos\\translate\\classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|solutionrelative:classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibraryTranslate\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F98C592-802A-415D-8D18-360C7607D705}|ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj|c:\\users\\user\\source\\repos\\translate\\classlibrarytranslate.tests\\classlibrarytranslate.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5F98C592-802A-415D-8D18-360C7607D705}|ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj|solutionrelative:classlibrarytranslate.tests\\classlibrarytranslate.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F98C592-802A-415D-8D18-360C7607D705}|ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj|c:\\users\\user\\source\\repos\\translate\\classlibrarytranslate.tests\\translatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F98C592-802A-415D-8D18-360C7607D705}|ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj|solutionrelative:classlibrarytranslate.tests\\translatetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\TranslateTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClassLibraryTranslate.Tests\\TranslateTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,35 +56,33 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
               "RelativeDocumentMoniker": "ClassLibraryTranslate\\Class1.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "ToolTip": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
               "RelativeToolTip": "ClassLibraryTranslate\\Class1.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAowAwAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T08:41:28.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:41:28.996Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ClassLibraryTranslate.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
               "RelativeDocumentMoniker": "ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
-              "ToolTip": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
+              "ToolTip": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
               "RelativeToolTip": "ClassLibraryTranslate.Tests\\ClassLibraryTranslate.Tests.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-27T21:21:02.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:21:02.238Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TranslateTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\TranslateTests.cs",
+              "DocumentMoniker": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\TranslateTests.cs",
               "RelativeDocumentMoniker": "ClassLibraryTranslate.Tests\\TranslateTests.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\TranslateTests.cs",
+              "ToolTip": "C:\\Users\\alexd\\source\\repos\\Translate\\ClassLibraryTranslate.Tests\\TranslateTests.cs",
               "RelativeToolTip": "ClassLibraryTranslate.Tests\\TranslateTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

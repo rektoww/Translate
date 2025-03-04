@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj": {}
+    "C:\\Users\\alexd\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
+    "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "projectUniqueName": "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
         "projectName": "ClassLibraryTranslate",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\obj\\",
+        "projectPath": "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,21 +65,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj": {
+    "C:\\Users\\alexd\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
+        "projectUniqueName": "C:\\Users\\alexd\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
         "projectName": "WinFormsTranslate",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\Translate\\WinFormsTranslate\\obj\\",
+        "projectPath": "C:\\Users\\alexd\\Source\\Repos\\Translate\\WinFormsTranslate\\WinFormsTranslate.csproj",
+        "packagesPath": "C:\\Users\\alexd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexd\\Source\\Repos\\Translate\\WinFormsTranslate\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\alexd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,14 +91,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
-                "projectPath": "C:\\Users\\User\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj"
+              "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
+                "projectPath": "C:\\Users\\alexd\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj"
               }
             }
           }
@@ -127,7 +137,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

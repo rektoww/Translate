@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleTranslate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+990500d38f1052966f6626257a8a6cc73cc82710")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b4d21811ebdad88b810e95585aa6312237445b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleTranslate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleTranslate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
