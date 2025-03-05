@@ -68,7 +68,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormError";
-            Text = "FormError";
+            Text = "Error";
             ResumeLayout(false);
             PerformLayout();
         }

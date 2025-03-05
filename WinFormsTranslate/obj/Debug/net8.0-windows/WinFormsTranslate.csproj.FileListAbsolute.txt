@@ -95,3 +95,4 @@ C:\Users\l1roi\source\repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows
 C:\Users\l1roi\source\repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.pdb
 C:\Users\l1roi\source\repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.genruntimeconfig.cache
 C:\Users\l1roi\source\repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\ref\WinFormsTranslate.dll
+C:\Users\egor2\Desktop\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.sourcelink.json

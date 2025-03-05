@@ -168,9 +168,9 @@
             ButtonSolve.BackColor = Color.FromArgb(178, 118, 252);
             ButtonSolve.Font = new Font("Montserrat SemiBold", 17.9999981F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             ButtonSolve.ForeColor = Color.FromArgb(255, 207, 171);
-            ButtonSolve.Location = new Point(379, 367);
+            ButtonSolve.Location = new Point(355, 358);
             ButtonSolve.Name = "ButtonSolve";
-            ButtonSolve.Size = new Size(183, 61);
+            ButtonSolve.Size = new Size(232, 79);
             ButtonSolve.TabIndex = 9;
             ButtonSolve.Text = "рассчитать";
             ButtonSolve.UseVisualStyleBackColor = false;
@@ -181,7 +181,7 @@
             ButtonExit.BackColor = Color.FromArgb(255, 207, 171);
             ButtonExit.Font = new Font("Montserrat SemiBold", 17.9999981F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             ButtonExit.ForeColor = Color.FromArgb(178, 118, 252);
-            ButtonExit.Location = new Point(379, 446);
+            ButtonExit.Location = new Point(379, 448);
             ButtonExit.Name = "ButtonExit";
             ButtonExit.Size = new Size(183, 61);
             ButtonExit.TabIndex = 10;
@@ -194,9 +194,9 @@
             button1.BackColor = Color.FromArgb(255, 207, 171);
             button1.Font = new Font("Montserrat SemiBold", 21.7499962F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             button1.ForeColor = Color.FromArgb(178, 118, 252);
-            button1.Location = new Point(843, 440);
+            button1.Location = new Point(833, 434);
             button1.Name = "button1";
-            button1.Size = new Size(65, 61);
+            button1.Size = new Size(81, 75);
             button1.TabIndex = 11;
             button1.Text = "?";
             button1.UseVisualStyleBackColor = false;
@@ -204,47 +204,47 @@
             // 
             // Ptext
             // 
-            Ptext.Font = new Font("Montserrat", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            Ptext.Font = new Font("Montserrat", 35.25F, FontStyle.Bold | FontStyle.Italic);
             Ptext.ForeColor = Color.FromArgb(34, 34, 34);
-            Ptext.Location = new Point(234, 180);
+            Ptext.Location = new Point(224, 172);
             Ptext.Name = "Ptext";
-            Ptext.Size = new Size(171, 47);
+            Ptext.Size = new Size(188, 65);
             Ptext.TabIndex = 12;
             // 
             // Qtext
             // 
-            Qtext.Font = new Font("Montserrat", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            Qtext.Font = new Font("Montserrat", 35.25F, FontStyle.Bold | FontStyle.Italic);
             Qtext.ForeColor = Color.FromArgb(34, 34, 34);
-            Qtext.Location = new Point(743, 180);
+            Qtext.Location = new Point(735, 171);
             Qtext.Name = "Qtext";
-            Qtext.Size = new Size(171, 47);
+            Qtext.Size = new Size(187, 65);
             Qtext.TabIndex = 13;
             // 
             // NQtextOutput
             // 
-            NQtextOutput.Font = new Font("Montserrat", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            NQtextOutput.Font = new Font("Montserrat", 35.25F, FontStyle.Bold | FontStyle.Italic);
             NQtextOutput.ForeColor = Color.FromArgb(34, 34, 34);
-            NQtextOutput.Location = new Point(743, 279);
+            NQtextOutput.Location = new Point(735, 269);
             NQtextOutput.Name = "NQtextOutput";
-            NQtextOutput.Size = new Size(171, 47);
+            NQtextOutput.Size = new Size(187, 65);
             NQtextOutput.TabIndex = 14;
             // 
             // NPtextInput
             // 
-            NPtextInput.Font = new Font("Montserrat", 24F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            NPtextInput.Font = new Font("Montserrat", 35.25F, FontStyle.Bold | FontStyle.Italic);
             NPtextInput.ForeColor = Color.FromArgb(34, 34, 34);
-            NPtextInput.Location = new Point(233, 279);
+            NPtextInput.Location = new Point(224, 271);
             NPtextInput.Name = "NPtextInput";
-            NPtextInput.Size = new Size(171, 47);
+            NPtextInput.Size = new Size(188, 65);
             NPtextInput.TabIndex = 15;
             // 
             // Accurancytext
             // 
-            Accurancytext.Font = new Font("Montserrat", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            Accurancytext.Font = new Font("Montserrat", 20.25F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             Accurancytext.ForeColor = Color.FromArgb(34, 34, 34);
-            Accurancytext.Location = new Point(27, 382);
+            Accurancytext.Location = new Point(20, 380);
             Accurancytext.Name = "Accurancytext";
-            Accurancytext.Size = new Size(171, 33);
+            Accurancytext.Size = new Size(187, 40);
             Accurancytext.TabIndex = 16;
             // 
             // FormMain
@@ -273,7 +273,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormMain";
-            Text = "Form1";
+            Text = "Translate App";
             ResumeLayout(false);
             PerformLayout();
         }

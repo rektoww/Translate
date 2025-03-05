@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsTranslate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b4d21811ebdad88b810e95585aa6312237445b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+175a29657bf263bfcd672527ee9528cf6ef2e2c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WinFormsTranslate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WinFormsTranslate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

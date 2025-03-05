@@ -68,7 +68,7 @@
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormFAQ";
-            Text = "FormFAQ";
+            Text = "FAQ";
             ResumeLayout(false);
             PerformLayout();
         }
