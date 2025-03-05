@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {}
+    "C:\\Users\\l1roi\\source\\repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
+    "C:\\Users\\l1roi\\source\\repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "projectUniqueName": "C:\\Users\\l1roi\\source\\repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
         "projectName": "ClassLibraryTranslate",
-        "projectPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
-        "packagesPath": "C:\\Users\\party\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\obj\\",
+        "projectPath": "C:\\Users\\l1roi\\source\\repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+        "packagesPath": "C:\\Users\\l1roi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\l1roi\\source\\repos\\Translate\\ClassLibraryTranslate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\party\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\l1roi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
