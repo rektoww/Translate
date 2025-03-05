@@ -1,26 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\egor2\\Desktop\\Translate\\",
+  "WorkspaceRootPath": "C:\\Users\\party\\source\\repos\\Translate\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\egor2\\desktop\\translate\\winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\egor2\\desktop\\translate\\winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\egor2\\desktop\\translate\\winformstranslate\\formfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|C:\\Users\\party\\source\\repos\\Translate\\winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\egor2\\desktop\\translate\\winformstranslate\\formerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\classlibrarytranslate\\classlibrarytranslate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|solutionrelative:classlibrarytranslate\\classlibrarytranslate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|c:\\users\\egor2\\desktop\\translate\\winformstranslate\\formdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1F98C592-802A-415D-8D18-360C7607D704}|WinFormsTranslate\\WinFormsTranslate.csproj|solutionrelative:winformstranslate\\formdebug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|c:\\users\\party\\source\\repos\\translate\\classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8DF13DD-1861-4C41-93C4-AEFACEA0EE3B}|ClassLibraryTranslate\\ClassLibraryTranslate.csproj|solutionrelative:classlibrarytranslate\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,84 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormDebug.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormDebug.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormDebug.cs",
-              "ToolTip": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormDebug.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsTranslate\\FormDebug.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:54:42.589Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormError.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormError.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormError.cs",
-              "ToolTip": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormError.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsTranslate\\FormError.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:54:36.902Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormFAQ.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormFAQ.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormFAQ.cs",
-              "ToolTip": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormFAQ.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsTranslate\\FormFAQ.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:54:24.576Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormMain.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormMain.cs",
-              "ToolTip": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormMain.cs",
-              "RelativeToolTip": "WinFormsTranslate\\FormMain.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAEwBMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:52:18.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormMain.cs",
-              "RelativeDocumentMoniker": "WinFormsTranslate\\FormMain.cs",
-              "ToolTip": "C:\\Users\\egor2\\Desktop\\Translate\\WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:48:39.065Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
               "$type": "Bookmark",
@@ -128,6 +55,69 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "RelativeDocumentMoniker": "ClassLibraryTranslate\\Class1.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\ClassLibraryTranslate\\Class1.cs",
+              "RelativeToolTip": "ClassLibraryTranslate\\Class1.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:46:57.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassLibraryTranslate.csproj",
+              "DocumentMoniker": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+              "RelativeDocumentMoniker": "ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+              "ToolTip": "C:\\Users\\party\\Source\\Repos\\Translate\\ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+              "RelativeToolTip": "ClassLibraryTranslate\\ClassLibraryTranslate.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-05T18:46:55.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs",
+              "RelativeDocumentMoniker": "WinFormsTranslate\\FormMain.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs*",
+              "RelativeToolTip": "WinFormsTranslate\\FormMain.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEsAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:39:50.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs",
+              "RelativeDocumentMoniker": "WinFormsTranslate\\FormMain.cs",
+              "ToolTip": "C:\\Users\\party\\source\\repos\\Translate\\WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "WinFormsTranslate\\FormMain.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T18:42:46.596Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
         }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFAQ));
             button1 = new Button();
             label1 = new Label();
             SuspendLayout();
@@ -37,7 +38,7 @@
             button1.BackColor = Color.FromArgb(255, 207, 171);
             button1.Font = new Font("Montserrat SemiBold", 17.9999981F, FontStyle.Bold | FontStyle.Italic);
             button1.ForeColor = Color.FromArgb(178, 118, 252);
-            button1.Location = new Point(301, 487);
+            button1.Location = new Point(301, 515);
             button1.Name = "button1";
             button1.Size = new Size(110, 41);
             button1.TabIndex = 1;
@@ -49,13 +50,13 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Montserrat Black", 21.7499962F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
+            label1.Font = new Font("Montserrat", 17.9999981F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 204);
             label1.ForeColor = Color.FromArgb(178, 118, 252);
-            label1.Location = new Point(27, 27);
+            label1.Location = new Point(14, 10);
             label1.Name = "label1";
-            label1.Size = new Size(655, 180);
+            label1.Size = new Size(699, 494);
             label1.TabIndex = 2;
-            label1.Text = "Здесь будет FAQ\r\nОказывается можно переносить текст\r\nв свойствах текста. Text -> флажок ->\r\nоткроется окно с большим вводом\r\n";
+            label1.Text = resources.GetString("label1.Text");
             // 
             // FormFAQ
             // 
@@ -63,7 +64,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.FormFAQImageBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(714, 540);
+            ClientSize = new Size(728, 583);
             Controls.Add(label1);
             Controls.Add(button1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
