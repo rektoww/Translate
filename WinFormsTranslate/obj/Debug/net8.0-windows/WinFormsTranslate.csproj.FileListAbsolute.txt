@@ -53,7 +53,6 @@ C:\Users\party\Source\Repos\Translate\WinFormsTranslate\bin\Debug\net8.0-windows
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\bin\Debug\net8.0-windows\ClassLibraryTranslate.dll
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\bin\Debug\net8.0-windows\ClassLibraryTranslate.pdb
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.csproj.AssemblyReference.cache
-C:\Users\party\Source\Repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.FormDebug.resources
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.FormError.resources
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.FormFAQ.resources
 C:\Users\party\Source\Repos\Translate\WinFormsTranslate\obj\Debug\net8.0-windows\WinFormsTranslate.FormMain.resources

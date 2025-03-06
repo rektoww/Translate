@@ -69,6 +69,7 @@
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "FormError";
             Text = "Error";
+            Load += FormError_Load;
             ResumeLayout(false);
             PerformLayout();
         }
