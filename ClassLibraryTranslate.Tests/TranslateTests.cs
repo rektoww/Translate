@@ -103,14 +103,14 @@ namespace ClassLibraryTranslate.Tests
         [TestMethod]
         public void ConvertFromDecimalToBaseQFractional_Simple()
         {
-            string result = "";
-            double fractionalPart = 0.5; // 0.5(10) = 0.1000(2)
+            string result = "0";  
+            double fractionalPart = 0.5; // 0.5(10) = 0.1(2)
             int Q = 2;
             int accuracy = 4;
 
             Translate.ConvertFromDecimalToBaseQFractional(ref result, fractionalPart, Q, accuracy, DIGITS);
 
-            Assert.AreEqual("1000", result);
+            Assert.AreEqual("01", result);  
         }
 
         /// <summary>
