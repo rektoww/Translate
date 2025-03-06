@@ -44,13 +44,25 @@ namespace WinFormsTranslate
         {
             // Определяем, начинается ли число с отрицательного знака
             int startIndex = input.StartsWith("-") ? 1 : 0;
+            bool point = false;
 
             // Проверяем каждый символ в числе
             for (int i = startIndex; i < input.Length; i++)
             {
                 char c = input[i];
-                int digitValue = 0;
 
+                // Разрешаем только точку в качестве десятичного разделителя
+                if (c == '.')
+                {
+                    if (point)
+                    {
+                        return false; // Если точка уже была, значит возвращаем false - ошибка
+                    }
+                    point = true;
+                    continue;
+                }
+
+                int digitValue = 0;
                 if (char.IsDigit(c))
                 {
                     digitValue = c - '0'; // Преобразуем символ в число (0-9)
