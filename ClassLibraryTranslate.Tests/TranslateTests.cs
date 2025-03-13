@@ -190,6 +190,91 @@ namespace ClassLibraryTranslate.Tests
 
             Assert.AreEqual("11111.1", result);
         }
+
+        /// <summary>
+        /// Проверяет корректность определения отрицательного числа
+        /// </summary>
+        [TestMethod]
+        public void IsNegativeNumber_Negative()
+        {
+            string number = "-123";
+            bool result = Translate.IsNegativeNumber(ref number);
+
+            Assert.IsTrue(result);
+            Assert.AreEqual("123", number);
+        }
+
+        /// <summary>
+        /// Проверяет корректность определения положительного числа
+        /// </summary>
+        [TestMethod]
+        public void IsNegativeNumber_Positive()
+        {
+            string number = "123";
+            bool result = Translate.IsNegativeNumber(ref number);
+
+            Assert.IsFalse(result);
+            Assert.AreEqual("123", number);
+        }
+
+        /// <summary>
+        /// Проверяет корректность перевода целого числа в десятичную систему
+        /// </summary>
+        [TestMethod]
+        public void ConvertToDecimal_Integer()
+        {
+            string number = "1010"; // 1010(2) = 10(10)
+            int P = 2;
+            double decimalValue = 0;
+
+            Translate.ConvertToDecimal(number, P, DIGITS, ref decimalValue);
+
+            Assert.AreEqual(10.0, decimalValue);
+        }
+
+        /// <summary>
+        /// Проверяет корректность перевода числа с дробной частью в десятичную систему
+        /// </summary>
+        [TestMethod]
+        public void ConvertToDecimal_Fractional()
+        {
+            string number = "1010.101"; // 1010.101(2) = 10.625(10)
+            int P = 2;
+            double decimalValue = 0;
+
+            Translate.ConvertToDecimal(number, P, DIGITS, ref decimalValue);
+
+            Assert.AreEqual(10.625, decimalValue);
+        }
+
+        /// <summary>
+        /// Проверяет корректность перевода десятичного числа в другую систему счисления
+        /// </summary>
+        [TestMethod]
+        public void ConvertFromDecimalToBaseQ_Integer()
+        {
+            double decimalValue = 10; // 10(10) = 1010(2)
+            int Q = 2;
+            int accuracy = 0;
+
+            string result = Translate.ConvertFromDecimalToBaseQ(decimalValue, Q, accuracy, DIGITS);
+
+            Assert.AreEqual("1010", result);
+        }
+
+        /// <summary>
+        /// Проверяет корректность перевода десятичного числа с дробной частью в другую систему счисления
+        /// </summary>
+        [TestMethod]
+        public void ConvertFromDecimalToBaseQ_Fractional()
+        {
+            double decimalValue = 10.5; // 10.5(10) = 1010.1(2)
+            int Q = 2;
+            int accuracy = 1;
+
+            string result = Translate.ConvertFromDecimalToBaseQ(decimalValue, Q, accuracy, DIGITS);
+
+            Assert.AreEqual("1010.1", result);
+        }
     }
 }
-
