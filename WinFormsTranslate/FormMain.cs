@@ -102,7 +102,7 @@ namespace WinFormsTranslate
                     throw new ArgumentException("Ошибка: \nЗначение P должно \nбыть целым числом. \nПовторите попытку.");
                 }
                 // Проверка на существование значения Q
-                if (Qtext.Text== "")
+                if (Qtext.Text == "")
                 {
                     throw new ArgumentException("Ошибка: \nНе указано \nзначение Q. \nПовторите попытку.");
                 }
@@ -189,6 +189,23 @@ namespace WinFormsTranslate
                 FormError formError = new FormError("Ошибка: \nНепредвиденная \nошибка. \nПовторите попытку.");
                 formError.ShowDialog();
             }
+        }
+        // Методы для отчистки окна вывода при изменении текста
+        private void Ptext_TextChanged(object sender, EventArgs e)
+        {
+            NQtextOutput.Text = "";
+        }
+        private void NPtextInput_TextChanged(object sender, EventArgs e)
+        {
+            NQtextOutput.Text = "";
+        }
+        private void Accurancytext_TextChanged(object sender, EventArgs e)
+        {
+            NQtextOutput.Text = "";
+        }
+        private void Qtext_TextChanged(object sender, EventArgs e)
+        {
+            NQtextOutput.Text = "";
         }
     }
 }

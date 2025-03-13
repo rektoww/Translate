@@ -210,6 +210,7 @@
             Ptext.Name = "Ptext";
             Ptext.Size = new Size(188, 65);
             Ptext.TabIndex = 12;
+            Ptext.TextChanged += Ptext_TextChanged;
             // 
             // Qtext
             // 
@@ -219,6 +220,7 @@
             Qtext.Name = "Qtext";
             Qtext.Size = new Size(187, 65);
             Qtext.TabIndex = 13;
+            Qtext.TextChanged += Qtext_TextChanged;
             // 
             // NQtextOutput
             // 
@@ -237,6 +239,7 @@
             NPtextInput.Name = "NPtextInput";
             NPtextInput.Size = new Size(188, 65);
             NPtextInput.TabIndex = 15;
+            NPtextInput.TextChanged += NPtextInput_TextChanged;
             // 
             // Accurancytext
             // 
@@ -246,6 +249,7 @@
             Accurancytext.Name = "Accurancytext";
             Accurancytext.Size = new Size(187, 40);
             Accurancytext.TabIndex = 16;
+            Accurancytext.TextChanged += Accurancytext_TextChanged;
             // 
             // FormMain
             // 
