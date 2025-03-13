@@ -91,12 +91,21 @@ namespace WinFormsTranslate
         {
             try
             {
+                // Проверка на существование значения P
+                if (Ptext.Text == "")
+                {
+                    throw new ArgumentException("Ошибка: \nНе указано \nзначение P. \nПовторите попытку.");
+                }
                 // Проверка, является ли P целым числом
                 if (!int.TryParse(Ptext.Text, out int P))
                 {
                     throw new ArgumentException("Ошибка: \nЗначение P должно \nбыть целым числом. \nПовторите попытку.");
                 }
-
+                // Проверка на существование значения Q
+                if (Qtext.Text== "")
+                {
+                    throw new ArgumentException("Ошибка: \nНе указано \nзначение Q. \nПовторите попытку.");
+                }
                 // Проверка, является ли Q целым числом
                 if (!int.TryParse(Qtext.Text, out int Q))
                 {
@@ -114,13 +123,21 @@ namespace WinFormsTranslate
                 {
                     throw new ArgumentException("Ошибка: \nЗначение системы \nсчисления Q\nдолжно находиться \nв промежутке [2;36]. \nПовторите попытку.");
                 }
-
+                // Проверка на существование исходного числа
+                if (NPtextInput.Text == "")
+                {
+                    throw new ArgumentException("Ошибка: \nНе указано исходное \nчисло. \nПовторите попытку.");
+                }
+                // Проверка на существование точности
+                if (Accurancytext.Text == "")
+                {
+                    throw new ArgumentException("Ошибка: \nНе указано значение \nточности. \nПовторите попытку.");
+                }
                 // Проверка, является ли точность целым числом
                 if (!int.TryParse(Accurancytext.Text, out int accuracy))
                 {
                     throw new ArgumentException("Ошибка: \nЗначение точности \nдолжно быть целым \nчислом. \nПовторите попытку.");
                 }
-
                 // Проверка на использование запятой вместо точки
                 if (NPtextInput.Text.Contains(","))
                 {
