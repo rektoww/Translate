@@ -4,14 +4,16 @@ namespace ClassLibraryTranslate
 {
     public static class Translate
     {
+        // Глобальная переменная digits
+        private static string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
         /// <summary>
         /// Выполняет задачу перевода целой части числа из системы счисления P в десятичную систему
         /// </summary>
         /// <param name="integerPart">целая часть исходного числа</param>
         /// <param name="P">система счисления, из которой переводится число</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
         /// <param name="decimalValue">итоговая целая часть числа в десятичной системе</param>
-        public static void ConvertIntegerPart(string integerPart, int P, string digits, ref double decimalValue)
+        public static void ConvertIntegerPart(string integerPart, int P, ref double decimalValue)
         {
             for (int i = 0; i < integerPart.Length; i++)
             {
@@ -25,9 +27,8 @@ namespace ClassLibraryTranslate
         /// </summary>
         /// <param name="fractionalPart">дробная часть исходного числа</param>
         /// <param name="P">система счисления, из которой переводится число</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
         /// <param name="decimalValue">итоговая десятичная часть числа в десятичной системе</param>
-        public static void ConvertFractionalPart(string fractionalPart, int P, string digits, ref double decimalValue)
+        public static void ConvertFractionalPart(string fractionalPart, int P, ref double decimalValue)
         {
             for (int i = 0; i < fractionalPart.Length; i++)
             {
@@ -42,9 +43,8 @@ namespace ClassLibraryTranslate
         /// </summary>
         /// <param name="integerPart">целая часть исходного числа в десятичной системе счисления</param>
         /// <param name="Q">система счисления, в которую происходит перевод исходного числа</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
         /// <returns></returns>
-        public static string ConvertFromDecimalToBaseQInteger(long integerPart, int Q, string digits)
+        public static string ConvertFromDecimalToBaseQInteger(long integerPart, int Q)
         {
             if (integerPart == 0)
             {
@@ -68,8 +68,7 @@ namespace ClassLibraryTranslate
         /// <param name="fractionalPart">дробная часть исходного числа в десятичной системе счисления</param>
         /// <param name="Q">система счисления, в которую происходит перевод исходного числа</param>
         /// <param name="accuracy">точность, с которой происходит вывод числа в системе счисления Q</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
-        public static void ConvertFromDecimalToBaseQFractional(ref string result, double fractionalPart, int Q, int accuracy, string digits)
+        public static void ConvertFromDecimalToBaseQFractional(ref string result, double fractionalPart, int Q, int accuracy)
         {
             for (int i = 0; i < accuracy; i++)
             {
@@ -122,17 +121,15 @@ namespace ClassLibraryTranslate
         /// <summary>
         /// Конвертирует число из системы счисления P в десятичную систему
         /// </summary>
-        /// <param name="number">строковое представление числа в системе счисления P</param>
+        /// <param name="parts">строковое представление числа в системе счисления P</param>
         /// <param name="P">основание системы счисления исходного числа</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
         /// <param name="decimalValue">переменная, в которую будет записан результат в десятичной системе</param>
-        public static void ConvertToDecimal(string number, int P, string digits, ref double decimalValue)
+        public static void ConvertToDecimal(string[] parts, int P, ref double decimalValue)
         {
-            string[] parts = SplitNumber(number);
-            ConvertIntegerPart(parts[0], P, digits, ref decimalValue);
+            ConvertIntegerPart(parts[0], P, ref decimalValue);
             if (parts.Length > 1)
             {
-                ConvertFractionalPart(parts[1], P, digits, ref decimalValue);
+                ConvertFractionalPart(parts[1], P, ref decimalValue);
             }
         }
 
@@ -142,22 +139,21 @@ namespace ClassLibraryTranslate
         /// <param name="decimalValue">число в десятичной системе</param>
         /// <param name="Q">основание системы счисления, в которую переводится число</param>
         /// <param name="accuracy">точность перевода дробной части</param>
-        /// <param name="digits">строка всех возможных цифр в системе счисления</param>
-        public static string ConvertFromDecimalToBaseQ(double decimalValue, int Q, int accuracy, string digits)
+        public static string ConvertFromDecimalToBaseQ(double decimalValue, int Q, int accuracy)
         {
             SplitDecimalValue(decimalValue, out long integerPart, out double fractionalPart);
-            string result = ConvertFromDecimalToBaseQInteger(integerPart, Q, digits);
+            string result = ConvertFromDecimalToBaseQInteger(integerPart, Q);
             if (accuracy > 0 && fractionalPart > 0)
             {
                 result += ".";
-                ConvertFromDecimalToBaseQFractional(ref result, fractionalPart, Q, accuracy, digits);
+                ConvertFromDecimalToBaseQFractional(ref result, fractionalPart, Q, accuracy);
             }
             return result;
         }
 
         /// <summary>
         /// Выполняет задачу перевода числа из системы счисления P в десятичную
-        /// заьем в систему счисления Q
+        /// затем в систему счисления Q
         /// </summary>
         /// <param name="number">исходное число в системе счисления P</param>
         /// <param name="P">система счисления исходного числа</param>
@@ -165,14 +161,15 @@ namespace ClassLibraryTranslate
         /// <param name="accuracy">точность вывода исходного числа, переведённого в систему счисления Q</param>
         public static string ConvertNumber(string number, int P, int Q, int accuracy)
         {
-            string digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
             double decimalValue = 0;
 
             bool isNegative = IsNegativeNumber(ref number);
 
-            ConvertToDecimal(number, P, digits, ref decimalValue);
+            string[] parts = SplitNumber(number);
 
-            string result = ConvertFromDecimalToBaseQ(decimalValue, Q, accuracy, digits);
+            ConvertToDecimal(parts, P, ref decimalValue);
+
+            string result = ConvertFromDecimalToBaseQ(decimalValue, Q, accuracy);
 
             if (isNegative)
             {
